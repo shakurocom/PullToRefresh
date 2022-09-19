@@ -107,22 +107,46 @@
 			isa = PBXGroup;
 			children = (
 				17AC9E9928AA4D5400DF8A2B /* AppDelegate.swift */,
+				6B9CC1A328D8551400DE744A /* Resources */,
+				6B9CC1A528D8554400DE744A /* UI */,
+			);
+			path = PullToRefresh_Example;
+			sourceTree = "<group>";
+		};
+		6B9CC1A328D8551400DE744A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17AC9EBD28AA518C00DF8A2B /* animation-pulling-shakuro_logo.json */,
+				17AC9EBC28AA518C00DF8A2B /* animation-refreshing-shakuro_logo.json */,
+				17AC9EA728AA4D5600DF8A2B /* Info.plist */,
+				17AC9EA228AA4D5600DF8A2B /* Assets.xcassets */,
+				6B9CC1A428D8552300DE744A /* UI */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B9CC1A428D8552300DE744A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				17AC9EA428AA4D5600DF8A2B /* LaunchScreen.storyboard */,
+				17AC9E9F28AA4D5400DF8A2B /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6B9CC1A528D8554400DE744A /* UI */ = {
+			isa = PBXGroup;
+			children = (
 				17AC9EC028AA547700DF8A2B /* Example.swift */,
-				17AC9EC228AA549E00DF8A2B /* ExampleViewControllerProtocol.swift */,
-				17AC9EC428AA55C900DF8A2B /* ExampleSelectorViewController.swift */,
+				17AC9EB928AA517A00DF8A2B /* ExamplePullToRefreshContentView.swift */,
 				17AC9EB228AA50D400DF8A2B /* ExamplePullToRefreshShakuroLogoViewController.swift */,
 				17AC9EB328AA50D400DF8A2B /* ExamplePullToRefreshStickyHeadersViewController.swift */,
 				17AC9EB428AA50D400DF8A2B /* ExamplePullToRefreshViewController.swift */,
-				17AC9EB928AA517A00DF8A2B /* ExamplePullToRefreshContentView.swift */,
+				17AC9EC428AA55C900DF8A2B /* ExampleSelectorViewController.swift */,
+				17AC9EC228AA549E00DF8A2B /* ExampleViewControllerProtocol.swift */,
 				17AC9EB828AA517900DF8A2B /* ShakuroLogoPullToRefreshContentView.swift */,
-				17AC9E9F28AA4D5400DF8A2B /* Main.storyboard */,
-				17AC9EA228AA4D5600DF8A2B /* Assets.xcassets */,
-				17AC9EBD28AA518C00DF8A2B /* animation-pulling-shakuro_logo.json */,
-				17AC9EBC28AA518C00DF8A2B /* animation-refreshing-shakuro_logo.json */,
-				17AC9EA428AA4D5600DF8A2B /* LaunchScreen.storyboard */,
-				17AC9EA728AA4D5600DF8A2B /* Info.plist */,
 			);
-			path = PullToRefresh_Example;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		C68B6C68B4D5A35E8E4959F4 /* Pods */ = {
@@ -429,7 +453,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MW2UF479VW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PullToRefresh_Example/Info.plist;
+				INFOPLIST_FILE = PullToRefresh_Example/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -459,7 +483,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MW2UF479VW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PullToRefresh_Example/Info.plist;
+				INFOPLIST_FILE = PullToRefresh_Example/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -1,4 +1,4 @@
-![Shakuro PullToRefresh](title_image.png)
+![Shakuro PullToRefresh](Resources/title_image.png)
 <br><br>
 # PullToRefresh
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
