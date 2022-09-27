@@ -1,0 +1,24 @@
+PODS:
+  - lottie-ios (3.2.3)
+  - Shakuro.CommonTypes (1.1.4)
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - lottie-ios (= 3.2.3)
+  - Shakuro.CommonTypes (= 1.1.4)
+  - SwiftLint (= 0.43.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - lottie-ios
+    - Shakuro.CommonTypes
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  Shakuro.CommonTypes: a3c3d432a2fc19e3e7971dad13aa9066d7ce5771
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: c06033958d8a6699571232be610f23114111c697
+
+COCOAPODS: 1.11.3
