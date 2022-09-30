@@ -10,6 +10,20 @@
 - [Usage](#usage)
 - [License](#license)
 
+A `PullToRefresh` is a Swift library - is a custom control that you attach to any UIScrollView object, including table views and collection views. `PullToRefresh` has various configuration options.
+
+`PullToRefresh` example with default options:
+
+![](Resources/pull_to_refresh_example_1.gif)
+
+`PullToRefresh` example with animation logo:
+
+![](Resources/pull_to_refresh_example_2.gif)
+
+`PullToRefresh` example with sticky headers:
+
+![](Resources/pull_to_refresh_example_3.gif)
+
 ## Requirements
 
 - iOS 11.0+
