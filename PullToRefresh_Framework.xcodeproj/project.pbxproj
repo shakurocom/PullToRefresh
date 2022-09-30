@@ -10,6 +10,7 @@
 		172F078228A4F37B00AFD6A2 /* PullToRefresh_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 172F078128A4F37B00AFD6A2 /* PullToRefresh_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		172F078D28A4F44200AFD6A2 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F078C28A4F44200AFD6A2 /* PullToRefreshView.swift */; };
 		17AC9E8C28AA4CC800DF8A2B /* Shakuro.PullToRefresh.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 17AC9E8B28AA4CC800DF8A2B /* Shakuro.PullToRefresh.podspec */; };
+		6B473CAF28E6E0DE0040D82B /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6B473CAE28E6E0DE0040D82B /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		172F078A28A4F3E200AFD6A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		172F078C28A4F44200AFD6A2 /* PullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
 		17AC9E8B28AA4CC800DF8A2B /* Shakuro.PullToRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Shakuro.PullToRefresh.podspec; sourceTree = "<group>"; };
+		6B473CAE28E6E0DE0040D82B /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 				172F078928A4F3E200AFD6A2 /* LICENSE.md */,
 				172F078A28A4F3E200AFD6A2 /* README.md */,
 				17AC9E8B28AA4CC800DF8A2B /* Shakuro.PullToRefresh.podspec */,
+				6B473CAE28E6E0DE0040D82B /* .swiftlint.yml */,
 				172F078028A4F37B00AFD6A2 /* PullToRefresh_Framework */,
 				172F078B28A4F44200AFD6A2 /* Source */,
 				172F077F28A4F37B00AFD6A2 /* Products */,
@@ -147,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B473CAF28E6E0DE0040D82B /* .swiftlint.yml in Resources */,
 				17AC9E8C28AA4CC800DF8A2B /* Shakuro.PullToRefresh.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
