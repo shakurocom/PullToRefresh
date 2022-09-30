@@ -42,10 +42,10 @@
 				172F078A28A4F3E200AFD6A2 /* README.md */,
 				17AC9E8B28AA4CC800DF8A2B /* Shakuro.PullToRefresh.podspec */,
 				6B473CAE28E6E0DE0040D82B /* .swiftlint.yml */,
-				172F078028A4F37B00AFD6A2 /* PullToRefresh_Framework */,
 				172F078B28A4F44200AFD6A2 /* Source */,
-				172F077F28A4F37B00AFD6A2 /* Products */,
+				172F078028A4F37B00AFD6A2 /* PullToRefresh_Framework */,
 				55C2A22AE1C03BE105139562 /* Pods */,
+				172F077F28A4F37B00AFD6A2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
