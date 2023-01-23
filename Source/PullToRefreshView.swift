@@ -412,13 +412,14 @@ public class PullToRefreshView: UIView {
                 eventHandler?()
             }
             if let table = tableView, let header = tableHeaderView {
+                // TODO: there is bug here if useTableViewHeader is true and pull to refresh is shown programmatically
                 updateTableHeaderHeight(table: table, header: header, height: length, animated: false, keepOffset: true)
                 return
             }
             var newInsets = originalContentInset
             newInsets.top += length
             if scrollView.contentInset != newInsets {
-                if adjustsOffsetToVisible && !scrollView.isTracking && scrollView.contentOffset.y == 0 {
+                if adjustsOffsetToVisible && !scrollView.isTracking && scrollView.contentOffset.y + originalContentInset.top == 0 {
                     var newOffset = scrollView.contentOffset
                     newOffset.y -= length
                     UIView.animate(
