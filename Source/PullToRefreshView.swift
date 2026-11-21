@@ -5,7 +5,11 @@
 //
 
 import UIKit
+#if SWIFT_PACKAGE
+import CommonTypes
+#else
 import Shakuro_CommonTypes
+#endif
 
 /**
  Constraints of this view or its subviews MUST NOT define width or height of this view - use stretcheble/centered layout

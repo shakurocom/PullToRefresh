@@ -24,3 +24,8 @@ playground.xcworkspace
 *.generated.swift
 
 Pods
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
