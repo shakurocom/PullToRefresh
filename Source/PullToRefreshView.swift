@@ -14,6 +14,7 @@ import Shakuro_CommonTypes
 /**
  Constraints of this view or its subviews MUST NOT define width or height of this view - use stretcheble/centered layout
  */
+@MainActor
 public protocol PullToRefreshContentViewProtocol {
 
     /**

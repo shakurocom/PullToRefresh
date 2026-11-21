@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name             = 'Shakuro.PullToRefresh'
-    s.version          = '1.0.3'
+    s.version          = '1.0.4'
     s.summary          = 'PullToRefresh'
     s.homepage         = 'https://github.com/shakurocom/PullToRefresh'
     s.license          = { :type => "MIT", :file => "LICENSE.md" }

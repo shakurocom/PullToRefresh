@@ -51,7 +51,7 @@ $ pod install
 Add the package to the `dependencies` of your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/shakurocom/PullToRefresh.git", from: "1.0.3")
+.package(url: "https://github.com/shakurocom/PullToRefresh.git", from: "1.0.4")
 ```
 
 and the product to your target:
