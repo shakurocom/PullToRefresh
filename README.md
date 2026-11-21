@@ -46,6 +46,23 @@ Then, run the following command:
 $ pod install
 ```
 
+### Swift Package Manager
+
+Add the package to the `dependencies` of your `Package.swift`:
+
+```swift
+.package(url: "https://github.com/shakurocom/PullToRefresh.git", from: "1.0.3")
+```
+
+and the product to your target:
+
+```swift
+.product(name: "PullToRefresh", package: "PullToRefresh")
+```
+
+In Xcode, use File > Add Package Dependencies… with `https://github.com/shakurocom/PullToRefresh.git`.
+With SPM the module is `PullToRefresh` (`import PullToRefresh`); with CocoaPods it is `Shakuro_PullToRefresh`.
+
 ### Manually
 
 If you prefer not to use CocoaPods, you can integrate Shakuro.PullToRefresh simply by copying it to your project.
